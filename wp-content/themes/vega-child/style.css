@@ -1,12 +1,156 @@
-/*
-Theme Name: Vega Child
-Theme URI: https://www.lyrathemes.com/vega/
-Template: vega
-Author: Lyra Themes
-Author URI: https://www.lyrathemes.com/
-Tags: one-column,two-columns,right-sidebar,grid-layout,flexible-header,custom-header,custom-colors,custom-menu,featured-image-header,featured-images,footer-widgets,full-width-template,theme-options,translation-ready,blog,news,portfolio
-Version: 2.3.4.1554401873
-Updated: 2019-04-04 18:17:53
+html {
+    background-color: #c1664a;
+}
 
-*/
+p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.25rem;
+    letter-spacing: .05rem;
+    line-height: 3.2rem;
+}
 
+h2 {
+    font-size:5.5rem;
+}
+
+.nav-wrapper {
+    height: .4rem !important;
+    background-color: #c1664a;
+}
+
+.frontpage-content {
+    text-align: left;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    font-family: 'Roboto Slab', serif;
+    line-height: unset;
+    font-size: 1.75rem;
+    letter-spacing: .14rem;
+    color:#dedede;
+    text-transform: none;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin:unset;
+}
+
+
+.navbar-brand.image-logo img {
+    max-width: 34%;
+    margin-top:-82px;
+}
+
+.frontpage-banner.frontpage-banner-parallax-bg {
+    height: 170px !important;
+    background-color: #689fad;
+}
+
+.home .block-title {
+    color: #ddd;
+    margin: 0px;
+}
+
+.frontpage-content .description {
+    margin:0px;
+}
+
+.frontpage-content .description > p {
+    /*box-shadow: inset 0px 0px 60px 60px hsla(192, 30%, 45%, 1);*/
+}
+
+.block-title:after {
+    border-bottom:0px !important;
+}
+
+#welcome {
+    padding: 0px 0px 40px;
+    background-image: url(http://pathfindercharters.test/wp-content/uploads/2019/05/waves.png) !important;
+    background-color: #689fad;
+}
+
+.frontpage-cta.section {
+    padding: 60px 0px;
+}
+
+.navbar-custom {
+    height: 0px;
+    min-height: 0px;
+    webkit-box-shadow: 0 0 0px rgba(0,0,0,0.0) !important;
+    mozbox-box-shadow: 0 0 0px rgba(0,0,0,0) !important;
+    box-shadow: 0 0 0px rgba(0,0,0,0.0) !important;
+}
+
+.navbar-custom .navbar-brand {
+    padding-top:0px;
+}
+
+a.navbar-brand.text-logo {
+    color:#dedede;
+}
+
+.section {
+    /*border-top: 5px solid #007e9e;*/
+    border-bottom: 0px;
+    margin: auto !important;
+}
+
+.home .block-title {
+    color: #dfeaed;
+    letter-spacing: 0.1rem;
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    text-shadow: 2px 2px 1px #6493a0;
+}
+
+#open {
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* 5 Column Layout for Services */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.wp-block-gallery > .blocks-gallery-item > figure > img {
+    border: 2px solid #dedede;
+    border-radius: .75rem;
+}
+
+.footer {
+    background-color: #689fad !important;
+}
+
+.copyright {
+    visibility: hidden;
+}
