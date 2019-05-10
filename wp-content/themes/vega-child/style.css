@@ -18,6 +18,11 @@ h2 {
     background-color: #c1664a;
 }
 
+.image-banner .frontpage-banner .frontpage-banner-parallax-bg .full-screen {
+    background-image: none !important;
+    background-color: #689fad !important; 
+}
+
 .frontpage-content {
     text-align: left;
 }
@@ -38,7 +43,7 @@ h2 {
 
 .navbar-brand.image-logo img {
     max-width: 34%;
-    margin-top:-82px;
+    margin-top: -82px;
 }
 
 .frontpage-banner.frontpage-banner-parallax-bg {
@@ -105,8 +110,8 @@ a.navbar-brand.text-logo {
 
 #open {
     background: #C6FFDD;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #2e93cd);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #2e93cd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* 5 Column Layout for Services */
