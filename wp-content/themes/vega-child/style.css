@@ -1,5 +1,5 @@
 html {
-    background-color: #c1664a;
+    background-color: #323d3f;
 }
 
 p {
@@ -13,9 +13,13 @@ h2 {
     font-size:5.5rem;
 }
 
+h3 {
+    font-family: 'Roboto Slab', serif; 
+}
+
 .nav-wrapper {
     height: .4rem !important;
-    background-color: #c1664a;
+    background-color: #dfeaed;
 }
 
 .image-banner .frontpage-banner .frontpage-banner-parallax-bg .full-screen {
@@ -48,7 +52,8 @@ h2 {
 
 .frontpage-banner.frontpage-banner-parallax-bg {
     height: 170px !important;
-    background-color: #689fad;
+    background-color: #5aa6d2;
+    background-image: none !important;
 }
 
 .home .block-title {
@@ -71,11 +76,17 @@ h2 {
 #welcome {
     padding: 0px 0px 40px;
     background-image: url(http://pathfindercharters.test/wp-content/uploads/2019/05/waves.png) !important;
-    background-color: #689fad;
+    background-color: #5aa6d2;
 }
 
 .frontpage-cta.section {
     padding: 60px 0px;
+}
+
+.frontpage-cta2.color-bg {
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dc4e52, #FBD786, #5aa6d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dc4e52, #FBD786, #5aa6d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }
 
 .navbar-custom {
@@ -96,7 +107,7 @@ a.navbar-brand.text-logo {
 
 .section {
     /*border-top: 5px solid #007e9e;*/
-    border-bottom: 0px;
+    border-bottom: .4rem solid #dfeaed;
     margin: auto !important;
 }
 
@@ -105,13 +116,13 @@ a.navbar-brand.text-logo {
     letter-spacing: 0.1rem;
     font-family: 'Roboto Slab', serif;
     text-align: left;
-    text-shadow: 2px 2px 1px #6493a0;
+    text-shadow: 2px 2px 1px #3e6b86;
 }
 
 #open {
-    background: #C6FFDD;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #2e93cd);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f7797d, #FBD786, #2e93cd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*background: #C6FFDD;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #2e93cd);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #f7797d, #FBD786, #2e93cd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* 5 Column Layout for Services */
@@ -153,7 +164,7 @@ a.navbar-brand.text-logo {
 }
 
 .footer {
-    background-color: #689fad !important;
+    background-color: #5aa6d2 !important;
 }
 
 .copyright {
