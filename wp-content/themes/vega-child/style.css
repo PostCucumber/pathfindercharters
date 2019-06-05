@@ -23,7 +23,7 @@ h3 {
 
 .nav-wrapper {
     height: .4rem !important;
-    background-color: #dfeaed;
+    background-color: #dedede;
 }
 
 .image-banner .frontpage-banner .frontpage-banner-parallax-bg .full-screen {
@@ -38,11 +38,15 @@ h3 {
 .navbar-custom .navbar-nav > li > a {
     font-family: 'Stylish', sans-serif;
     line-height: unset;
-    color: #333333;
+    color: #dedede;
     font-size: 2.0rem;
     letter-spacing: .14rem;
     color:#dedede;
     text-transform: none;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+    color:#333333 !important;
 }
 
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
@@ -51,8 +55,8 @@ h3 {
 
 
 .navbar-brand.image-logo img {
-    max-width: 34%;
-    margin-top: -82px;
+    max-width: 30%;
+    margin-top: -80px;
 }
 
 .frontpage-banner.frontpage-banner-parallax-bg {
@@ -68,10 +72,6 @@ h3 {
 
 .frontpage-content .description {
     margin:0px;
-}
-
-.frontpage-content .description > p {
-    /*box-shadow: inset 0px 0px 60px 60px hsla(192, 30%, 45%, 1);*/
 }
 
 .block-title:after {
@@ -112,22 +112,16 @@ a.navbar-brand.text-logo {
 
 .section {
     /*border-top: 5px solid #007e9e;*/
-    border-bottom: .4rem solid #dfeaed;
+    border-bottom: .4rem solid #dedede;
     margin: auto !important;
 }
 
 .home .block-title {
-    color: #dfeaed;
+    color: #dedede;
     letter-spacing: 0.1rem;
     font-family: 'Roboto Slab', serif;
     text-align: left;
     text-shadow: 2px 2px 1px #3e6b86;
-}
-
-#open {
-    /*background: #C6FFDD;  /* fallback for old browsers */
-    /*background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #2e93cd);  /* Chrome 10-25, Safari 5.1-6 */
-    /*background: linear-gradient(to right, #f7797d, #FBD786, #2e93cd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* 5 Column Layout for Services */
