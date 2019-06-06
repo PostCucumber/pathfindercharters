@@ -157,6 +157,10 @@ a.navbar-brand.text-logo {
     }
 }
 
+.service-list > ul > li {
+    list-style-type: none;
+}
+
 .wp-block-gallery > .blocks-gallery-item > figure > img {
     border: 2px solid #dedede;
     border-radius: .75rem;
